@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品集 | 食品包装合规专家 × AI增强型设计师</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        /* 系统字体栈，无需加载 */
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+        
+        /* 自定义动画 */
+        .fade-up { animation: fadeUp 0.8s ease-out forwards; opacity: 0; transform: translateY(30px); }
+        @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+        
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+        
+        /* 图片hover效果 */
+        .work-card { transition: all 0.3s ease; }
+        .work-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+        
+        /* 渐变文字 */
+        .gradient-text {
+            background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased">
+
+    <!-- 导航 -->
+    <nav class="fixed top-0 w-full bg-gray-900/80 backdrop-blur-md border-b border-gray-800 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="font-bold text-xl tracking-tight">Portfolio</div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-400">
+                <a href="#work" class="hover:text-white transition">精选案例</a>
+                <a href="#tools" class="hover:text-white transition">AI工具</a>
+                <a href="#contact" class="hover:text-white transition">联系</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6 max-w-6xl mx-auto">
+        <div class="max-w-3xl">
+            <div class="fade-up">
+                <p class="text-amber-500 font-medium mb-4 tracking-wide uppercase text-sm">8年食品行业 · 包装合规 · AI工作流</p>
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                    用设计解决问题<br>
+                    <span class="gradient-text">用AI放大效率</span>
+                </h1>
+                <p class="text-xl text-gray-400 mb-8 leading-relaxed max-w-2xl">
+                    专注食品包装合规与视觉传达，自研AI合规自检系统实现标签审核自动化。擅长在法规约束与商业需求之间找到最优解。
+                </p>
+                <div class="flex gap-4">
+                    <a href="#work" class="bg-amber-500 text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-amber-400 transition">查看案例</a>
+                    <a href="#contact" class="border border-gray-700 px-8 py-3 rounded-full font-semibold hover:border-gray-500 transition">联系我</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 能力标签 -->
+    <section class="py-12 px-6 max-w-6xl mx-auto border-y border-gray-800">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center fade-up delay-100">
+            <div>
+                <div class="text-3xl mb-2">📦</div>
+                <div class="font-semibold">包装合规</div>
+                <div class="text-sm text-gray-500 mt-1">GB7718/广告法精通</div>
+            </div>
+            <div>
+                <div class="text-3xl mb-2">🤖</div>
+                <div class="font-semibold">AI工具链</div>
+                <div class="text-sm text-gray-500 mt-1">Kimi Code/自动化</div>
+            </div>
+            <div>
+                <div class="text-3xl mb-2">🎨</div>
+                <div class="font-semibold">视觉设计</div>
+                <div class="text-sm text-gray-500 mt-1">品牌/包装/详情页</div>
+            </div>
+            <div>
+                <div class="text-3xl mb-2">🥗</div>
+                <div class="font-semibold">营养可视化</div>
+                <div class="text-sm text-gray-500 mt-1">食品+营养跨界</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 精选案例（⚠️ 替换图片时务必脱敏：删除正大Logo/条码/内部代号） -->
+    <section id="work" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 fade-up">精选案例</h2>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- 案例1：合规变更（正大项目脱敏版） -->
+            <div class="work-card bg-gray-800 rounded-2xl overflow-hidden fade-up delay-100">
+                <div class="aspect-[4/3] bg-gray-700 relative group">
+                    <!-- 明天替换成你的脱敏作品图：如 2026-04-02_work_01.jpg -->
+                    <img src="https://via.placeholder.com/800x600/374151/f59e0b?text=Project+01" 
+                         alt="食品包装合规迭代" 
+                         class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-60"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex gap-2 mb-3">
+                        <span class="text-xs bg-amber-500/20 text-amber-500 px-3 py-1 rounded-full">包装合规</span>
+                        <span class="text-xs bg-gray-700 text-gray-400 px-3 py-1 rounded-full">策略</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">认证标识变更管理</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        主导无抗认证取消后的包装迭代，制定分批次切换策略与消费者沟通话术，零客诉完成全SKU更新。
+                    </p>
+                </div>
+            </div>
+
+            <!-- 案例2：AI工具（自检系统） -->
+            <div class="work-card bg-gray-800 rounded-2xl overflow-hidden fade-up delay-200">
+                <div class="aspect-[4/3] bg-gray-700 relative group">
+                    <img src="https://via.placeholder.com/800x600/374151/3b82f6?text=AI+System" 
+                         alt="AI合规自检系统" 
+                         class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition">
+                </div>
+                <div class="p-6">
+                    <div class="flex gap-2 mb-3">
+                        <span class="text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full">自研工具</span>
+                        <span class="text-xs bg-gray-700 text-gray-400 px-3 py-1 rounded-full">AI工程化</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">AI合规自检系统</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        基于Python+Kimi API的三层架构审核工具，自动识别标签违规点，审核效率提升70%。
+                    </p>
+                </div>
+            </div>
+
+            <!-- 案例3：营养可视化（可放个人练习项目） -->
+            <div class="work-card bg-gray-800 rounded-2xl overflow-hidden fade-up delay-300">
+                <div class="aspect-[4/3] bg-gray-700 relative group">
+                    <img src="https://via.placeholder.com/800x600/374151/10b981?text=Nutrition+Info" 
+                         alt="营养信息可视化" 
+                         class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition">
+                </div>
+                <div class="p-6">
+                    <div class="flex gap-2 mb-3">
+                        <span class="text-xs bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full">信息设计</span>
+                        <span class="text-xs bg-gray-700 text-gray-400 px-3 py-1 rounded-full">营养科学</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">营养成分表重构</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        将复杂营养数据转化为消费者友好的视觉语言，平衡法规强制要求与阅读体验。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI工具展示（技术差异化亮点） -->
+    <section id="tools" class="py-20 px-6 bg-gray-800/50">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-up">
+                    <h2 class="text-3xl font-bold mb-6">不只是设计师<br>更是AI工程化实践者</h2>
+                    <p class="text-gray-400 mb-6 leading-relaxed">
+                        面对重复性合规审核工作，我构建了基于多模态AI的自动化工作流：
+                    </p>
+                    <ul class="space-y-4 text-gray-300">
+                        <li class="flex items-start">
+                            <span class="text-amber-500 mr-3">▸</span>
+                            <span><strong>OCR识别层：</strong>本地CO工具+云端多模态双重校验</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-amber-500 mr-3">▸</span>
+                            <span><strong>规则引擎：</strong>Python自动比对GB7718/广告法/食品安全法</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-amber-500 mr-3">▸</span>
+                            <span><strong>输出交付：</strong>Excel风险摘要+审计报告自动生成</span>
+                        </li>
+                    </ul>
+                    <div class="mt-8 p-4 bg-gray-900 rounded-lg border border-gray-700">
+                        <p class="text-sm text-gray-500 font-mono">技术栈：Python · Kimi API · OCR · Pandas</p>
+                    </div>
+                </div>
+                <div class="fade-up delay-200">
+                    <!-- 系统界面截图占位 -->
+                    <div class="aspect-video bg-gray-700 rounded-xl border border-gray-600 flex items-center justify-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-amber-500/10 to-blue-500/10"></div>
+                        <div class="text-center z-10">
+                            <div class="text-4xl mb-2">⚡</div>
+                            <div class="text-sm text-gray-400">AI Compliance System</div>
+                            <div class="text-xs text-gray-600 mt-2">Automation Workflow</div>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-600 mt-3 text-center">* 系统界面截图可替换为实际运行录屏/截图</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="py-20 px-6 max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8 fade-up">准备好用AI重新定义设计效率了吗？</h2>
+        <p class="text-gray-400 mb-8 max-w-xl mx-auto fade-up delay-100">
+            目前寻求包装合规、AI工具化设计相关机会。期待与认可技术驱动价值的团队合作。
+        </p>
+        <div class="flex flex-col md:flex-row gap-4 justify-center fade-up delay-200">
+            <a href="mailto:your.761199170@qq.com" class="bg-white text-gray-900 px-8 py-4 rounded-full font-semibold hover:bg-gray-200 transition">
+                📧 your.email@example.com
+            </a>
+            <span class="border border-gray-700 px-8 py-4 rounded-full text-gray-400">
+                📱 微信：x13888570206
+            </span>
+        </div>
+        <p class="text-xs text-gray-600 mt-12">
+            更新于 2026.04 · 使用 GitHub Pages 部署
+        </p>
+    </section>
+
+</body>
+</html>
